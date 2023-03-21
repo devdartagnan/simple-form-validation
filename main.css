@@ -1,0 +1,114 @@
+body {
+    background-color: #214161;
+    height: 100vh;
+    width: 100vw;
+}
+
+input {
+    text-align: center;
+}
+.red{
+    color: rgb(114, 23, 23);
+}
+.green{
+    color: rgb(45, 93, 45);
+}
+.form-align {
+    display: flex;
+    justify-content: center;
+}
+
+.form {
+    align-items: center;
+    background-color: rgba(239, 247, 255, 0.25);
+    border-radius: 16px;
+    color: #F3F3F3;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-family: 'Poppins', sans-serif;
+    gap: 10px;
+    height: 620px;
+    margin-top: 2.5rem;
+    padding: 2rem;
+    text-align: center;
+    width: 400px;
+}
+
+.box-icon {
+    position: relative;
+}
+
+.drop-shadow {
+    box-shadow: 0 2px 5px rgba(00, 00, 55, 0.25);
+}
+
+.titulo {
+    margin-bottom: 10px;
+}
+
+.input-nome {
+    border-radius: 8px;
+    border-style: none;
+    height: 40px;
+    margin-bottom: 10px;
+    width: 350px;
+}
+
+.input-email {
+    border-radius: 8px;
+    border-style: none;
+    height: 40px;
+    margin-bottom: 10px;
+    width: 350px;
+}
+
+.input-senha {
+    border-radius: 8px;
+    border-style: none;
+    height: 40px;
+    margin-bottom: 10px;
+    width: 350px;
+}
+
+.input-reSenha {
+    border-style: none;
+    border-radius: 8px;
+    height: 40px;
+    margin-bottom: 10px;
+    width: 350px;
+}
+
+.icon-senha {
+    bottom: 19px;
+    color: #363636;
+    cursor: pointer;
+    right: 10px;
+    position: absolute;
+}
+
+.icon-reSenha {
+    bottom: 19px;
+    color: #363636;
+    cursor: pointer;
+    right: 10px;
+    position: absolute;
+}
+
+.enviar {
+    border-radius: 8px;
+    border-style: none;
+    height: 40px;
+    margin-top: 20px;
+    width: 120px;
+}
+
+.enviar:hover {
+    background-color: #363636;
+    color: #EFF7FF;
+    cursor: pointer;
+}
+
+.validacao-email {
+    margin-top: -10px;
+}
